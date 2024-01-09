@@ -3,6 +3,7 @@
 }
 
 .fibonacci_spiral::after {
+    content: "";
     position: absolute;
     top: 0;
     bottom: 0;
