@@ -1,4 +1,8 @@
 .fibonacci_spiral {
+    position: relative;
+}
+
+.fibonacci_spiral::after {
     position: absolute;
     top: 0;
     bottom: 0;
@@ -15,30 +19,30 @@
     background-size: 100%;
 }
 
-.fibonacci_spiral.flip-x {
+.fibonacci_spiral.flip-x::after {
     transform: scaleX(-1);
 }
 
-.fibonacci_spiral.flip-x {
+.fibonacci_spiral.flip-x::after {
     transform: scaleY(-1);
 }
 
-.fibonacci_spiral.flip-x.flip-y {
+.fibonacci_spiral.flip-x.flip-y::after {
     transform: scaleX(-1) scaleY(-1);
 }
 
-.fibonacci_spiral.top {
+.fibonacci_spiral.top::after {
     --background-position-y: top;
 }
 
-.fibonacci_spiral.bottom {
+.fibonacci_spiral.bottom::after {
     --background-position-y: top;
 }
 
-.fibonacci_spiral.left {
+.fibonacci_spiral.left::after {
     --background-position-y: left;
 }
 
-.fibonacci_spiral.right {
+.fibonacci_spiral.right::after {
     --background-position-y: right;
 }
