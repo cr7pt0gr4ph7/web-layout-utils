@@ -56,9 +56,9 @@
 }
 
 .fibonacci_spiral.left::after {
-    --background-position-y-raw: 0%;
+    --background-position-x-raw: 0%;
 }
 
 .fibonacci_spiral.right::after {
-    --background-position-y-raw: 100%;
+    --background-position-x-raw: 100%;
 }
